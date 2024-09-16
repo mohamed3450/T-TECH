@@ -10,13 +10,14 @@ background-repeat: no-repeat;
 .container {
   width: 100%;
   padding: 20px;
+  height: 50px;
   background-color: #000000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+justify-content: space-between;
 }
 .logo {
   font-size: 24px;
@@ -27,13 +28,14 @@ header {
 .search-bar {
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 10;
+height: 23px;
   width: 200px;
   transition: width 0.3s;
 }
 
 .search-bar:focus {
-  width: 250px;
+  width: 400px;
   border-color: #007bff;
 }
 
@@ -98,3 +100,4 @@ width:100%;
   transform: scale(0);
   transition: opacity 10s, transform 10s;
 }
+ 
